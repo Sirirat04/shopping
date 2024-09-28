@@ -1,0 +1,48 @@
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* จัดกลางสินค้าในแนวนอน */
+  padding: 20px; /* เพิ่มระยะห่าง */
+}
+
+.product-card {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  margin: 10px; /* เพิ่มระยะห่างระหว่างการ์ด */
+  text-align: center; /* จัดกลางข้อความในการ์ด */
+}
+
+.button1 {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.downdiv {
+  position: absolute;
+  right: 0;
+  top: 100%;
+  width: 300px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  z-index: 1000;
+}
+
+.span1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 4px 8px;
+  font-size: 12px;
+}
